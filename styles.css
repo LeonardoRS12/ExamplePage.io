@@ -1,0 +1,34 @@
+* {
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body {
+
+font-family: 'Poppins', sans-serif;
+background-color: #888888;
+overflow-x: hidden;
+
+}
+
+h1 {
+
+position: relative;
+align-items: center;
+left: 600px;
+top: 350px;
+transition: 1s ease;
+
+}
+
+h1:hover {
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease-out;
+
+}
